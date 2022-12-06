@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://sleepcoacher.cs.brown.edu/, code adapted from Jeff's bootstrap tutorial-->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./personas_storyboard_files/bootstrap.min.css">
+<link rel="stylesheet" href="./personas_storyboard_files/style.css">
+<title>Development</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="width:100%;">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">Return to Portfolio</a>
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="#interface">Interface</a></li>
+				<li class="nav-item"><a class="nav-link" href="#requirements">Requirements</a></li>
+				<li class="nav-item"><a class="nav-link" href="#usability">Usability</a></li>
+				<li class="nav-item"><a class="nav-link" href="#analysis">Analysis</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div id="interface" class="d-flex flex-column justify-content-center align-items-center">
+	<h1 class="text main_title">Ticker's Tickets: Drive In Movie Theater Website</h1>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="d-flex lead article-entry">
+				<div class="rcorners_project_desc">
+				<h5 style="color:#dffd37;text-align:center;"> A drive in movie theater is a perfect ending to the day!</h5>
+				<br style="line-height: 10px;">
+				<h5 style="color:#EBF5FB;text-align:center;"><strong>Development Project Description:</strong> </h5>
+				<h5 style="color:#EBF5FB;"> For this project, we were required to use React to develop a single page interactive interface, use interface components, and tie the components to an internal data state.</h5>
+			</div>
+		</div>
+		</div>
+	</div>	
+	<br/>
+	<br>
+	<br>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="d-flex lead article-entry">
+				<div class="rcorners_image_desc" >
+				<h5 style="text-align:center;"><strong>Interface Purpose:</strong></h5>
+				<h5>The app is for users to purchase tickets to see movies at a drive in theater. </h5> 
+				<h5> Users can see movies offered, movie information, and ticket price. Users can sort by ticket price or by ratings, and filter by movie type/genre.</h5>
+				<br>
+				<h5 style="font-size:small;"> (since this is mandated to be single page, did not consider ability to schedule).</h5>
+				<h5 style="font-size:small;"> (movie types available: action, romance, and anime).</h5>
+			</div>
+			</div>
+		</div>
+	</div>	
+	<br>
+
+<div id="requirements" class="container-fluid bg-section">
+	<br/>
+	<div class="d-flex flex-column justify-content-center align-items-center">
+		<h1 class="text main_title">Required Features</h1>
+	</div>
+		<div class="container">
+			<div class="d-flex lead article-entry">
+				<div class="rcorners_project_desc">
+					Description of functionality requirements and what I've done to fulfill those requirements are listed below. 
+				</div>
+			</div>
+	</div>	
+	<br>
+	<div class="container">
+		<div class="d-flex lead article-entry">
+			<!--Icon from https://icon-icons.com/icon/vision-view-eye/153887 with CC license, attributed in footer of website-->
+			<!-- <img width="34" height="34" src="./personas_storyboard_files/vision_view_eye_icon_153887.png" alt="eye icon"> -->
+			<h4 class="section_title"> At least two filtering categories:</h4>
+			<br>
+		</div>
+			<div class="d-flex lead article-entry">
+				<ul type = "-">
+					<li>action</li>
+					<li>anime</li>
+					<li>romance</li>
+				</ul>	
+			</div>
+			<div class="d-flex lead article-entry">
+			<h4 class="section_title">At least 1 sorting feature:</h4>
+		</div>
+			<div class="d-flex lead article-entry">
+				<ul type = "-">
+					<li>price (lowest to highest)</li>
+					<li>rating (highest to lowest)</li>
+				</ul>	
+			</div>
+
+		<div class="d-flex lead article-entry">
+			<h4 class="section_title">An aggregator section:</h4>
+		</div>
+			<div class="d-flex lead article-entry">
+				<ul type = "-">
+					<li>shopping cart: contains quantity and price of tickets for movie tickets added to cart.</li>
+					<li>aggregation: total price of all tickets in cart.</li>
+					<li>updates: updates based on changes made to cart.</li>
+				</ul>	
+			</div>
+		
+	
+	<div class="d-flex lead article-entry">
+		<h4 class="section_title">At least 12 item cards containing:</h4>
+	</div>
+		<div class="d-flex lead article-entry">
+			<ul type = "-">
+				<li>image: movie poster</li>
+				<li>category: movie type/genre</li>
+				<li>sort fields: rating and price</li>
+				<li>property aggregated: price</li>
+				<li>aggregator changes: plus and minus button for adding and removing tickets.</li>
+			</ul>	
+		</div>
+	
+	<div class="d-flex lead article-entry">
+		<h4 class="section_title">Reset button for reverting to original state</h4>
+	</div>
+	<div class="d-flex lead article-entry">
+		<h4 class="section_title">Can handle combination of filters with sorting methods</h4>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+	</div>
+	</div>
+
+</div>
+
+<div id="usability" class="container-fluid">
+	<div class="container text-light">
+		<h1 class="text main_title text-center">Usability Requirements</h1>
+		<div class="container">
+			<div class="d-flex lead article-entry">
+				<div class="rcorners_project_desc" style="text-align:left;">
+					Description of usability requirements and what I've done to fulfill those requirements are listed below. 
+				</div>
+			</div>
+		</div>	
+		<br>
+		<div class="d-flex lead article-entry">
+			<h4 class="section_title" style="color:#212529;">Clear Status:</h4>
+		</div>
+			<div class="d-flex lead article-entry" style="color:#212529;">
+				<ul type = "-">
+					<li>After selecting sort and filters: movies immediately presented in reflected order/filtering.</li>
+					<li>Increasing/decreasing/selecting tickets: immediately reflects items and pricing in cart.</li>
+				</ul>	
+			</div>
+			<div class="d-flex lead article-entry">
+				<h4 class="section_title" style="color:#212529;">Intuitive Use:</h4>
+			</div>
+				<div class="d-flex lead article-entry" style="color:#212529;">
+					<ul type = "-">
+						<li>Sorting is intuitive: high to low for rating, and low to high for price.</li>
+						<li>Two clearly labelled buttons for changing quantities.</li>
+					</ul>	
+				</div>
+				<div class="d-flex lead article-entry">
+					<h4 class="section_title" style="color:#212529;">Visibility/Transparency:</h4>
+				</div>
+					<div class="d-flex lead article-entry" style="color:#212529;">
+						<ul type = "-">
+							<li>Movie, quantity, price of tickets clearly displayed in the cart.</li>
+							<li>Filter options, sort options, reset filter button, reset cart button are visible in the app.</li>
+							<li>Movie items are clear, each movie item contains clearly labeled for ratings and types. </li>
+							<li>No short forms are used, all headings/labels are present.</li>
+						</ul>	
+					</div>
+				</div>
+	</div>
+
+
+<div id="analysis" class="container-fluid bg-section">
+	<div class="container">
+		<h1 class="text main_title text-center">Implementation Requirements</h1>
+		<div class="container">
+			<div class="d-flex lead article-entry">
+				<div class="rcorners_project_desc">
+					Description of implementation requirements and what I've done to fulfill those requirements are listed below. 
+				</div>
+			</div>
+	</div>	
+	<br>
+	<div class="container">
+		<div class="d-flex lead article-entry">
+			<!--Icon from https://icon-icons.com/icon/vision-view-eye/153887 with CC license, attributed in footer of website-->
+			<!-- <img width="34" height="34" src="./personas_storyboard_files/vision_view_eye_icon_153887.png" alt="eye icon"> -->
+			<h4 class="section_title"> Organized Components:</h4>
+			<br>
+		</div>
+			<div class="d-flex lead article-entry">
+				<ul type = "-">
+					<li>TicketItem Component: displays each movie/ticket item (title, description, price/ticket, Rotten Tomatoes rating, poster). Also contains buttons for adding and subtracting tickets to the cart for each movie.</li>
+					<li>Aggregator Component: accesses the state of the cart, displays the cart (items, quantity of tickets for each, price, and total price) and having a button to clear the shopping cart.</li>
+					<li>Filter Component: contains code for the function HandleChanged (selects the option of filtering from filter options, and changing the checked states of the filter), and contains code for display of the checkbox options for filter type.</li>
+					<li>Sort Component: contains code for the function HandleChanged (which selects the sorting type from the sort options, and changing the states of the sort), and contains code for display of sort options for sort type.
+					</li>
+				</ul>	
+			</div>
+			<div class="d-flex lead article-entry">
+			<h4 class="section_title">Data is Passed Down Through Components:</h4>
+			<br>
+		</div>
+			<div class="d-flex lead article-entry">
+				<ul type = "-">
+					<li>In App.js, map through all filtered/sorted movies which produce a TicketItem Component for each movie.</li>
+					<li>For each movie item mapped through: item, and the addToCart and removeFromCart functions are passed through the components.</li>
+					<li>There are two calls to state in App.js, one to retrieve the filter types and one to retrieve the sort.</li>
+					<li> The functions selectFilterType,selectSort, resetFilter,resetSort, matchesFilterType,matchesSortType are defined in App.js to help generate filtered/sorted mapping of movies on the tiles.</li>
+					<li>In the side bar area of the app in App.js, the components for Filter and Sort are present.</li>
+				</ul>	
+		</div>
+		<div class="d-flex lead article-entry">
+			<h4 class="section_title">Changes to State:</h4>
+			<br>
+		</div>
+			<div class="d-flex lead article-entry">
+				<ul type = "-">
+					<li>when user increases/decreases quanity of ticket or clears cart.</li>
+					<li>when user changes filtering and/or sorting combinations, or resets.</li>
+					
+		</div>
+		</div>
+
+</div>
+</div>
+
+<div id="analysis" class="container-fluid ">
+	<div class="container">
+		<h1 class="text main_title text-center">Website</h1>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="d-flex lead article-entry">
+					<div class="rcorners_image_desc" style="width:100%;text-align:center;">
+						<a href="https://happybunny888.github.io/development/" style="color:black">Click here for the Ticker's Ticket website!</a>
+				</div>
+			</div>
+		</div>	
+		<br>
+	<br>
+		
+	<div class="container">
+		<div class="d-flex lead article-entry">
+			<div class="rcorners_project_desc" style="width: 100%;">
+			<h5 style="color:#dffd37;text-align:center;"><strong>Conclusion:</strong> </h5>
+			<h5 style="color:#dffd37;text-align:center;"> React is amazing for developing interactive interfaces!
+			</h5>
+			<br>
+			<h5 style="color:#EBF5FB;"> Now that you've watched a fantasic movie, you can click here to go explore other entertainment suggestions!
+			</h5>
+		</div>
+	</div>
+	<br>
+<footer class="bg-dark py-3">
+	<div class="container footer_text text-right">
+			Credit for observations icons from <a href="icon-icons.com"> icon-icons.com</a>, and Storyboard icons from the <a href="https://thenounproject.com"> Noun Project</a>, <a href="https://creativecommons.org/licenses/by/3.0/us/"> CC license</a> </p>
+	</div>
+</footer>
+
+
+
+</body></html>
